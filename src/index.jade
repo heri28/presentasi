@@ -81,9 +81,12 @@ html
         hr
         ul
           li &nbsp;
-          li Menyederhanakan perancangan web
-          li Memudahkan pemeliharaan halaman web
-          li Memperkecil ukuran file HTML
+          li Telah didukung oleh kebanyakan browser versi terbaru, tetapi tidak didukung oleh browser-browser lama.
+          li Lebih fleksibel dalam penempatan posisi layout. Dalam layouting CSS, kita mengenal Z-Index untuk menempatkan objek dalam posisi yang sama.
+          li Menjaga HTML dalam penggunaan tag yang minimal, hal ini berpengaruh terhadap ukuran berkas dan kecepatan pengunduhan.
+          li Dapat menampilkan konten utama terlebih dahulu, sementara gambar dapat ditampilkan sesudahnya.
+          li Penerjemahan CSS setiap browser berbeda, tata letak akan berubah jika dilihat di berbagai browser
+          li CSS adalah layouting "Masa Depan" dengan penggabungan bersama XHTML.
 
        section(data-bespoke-state='emphatic')
        h2 Contoh CSS
@@ -117,26 +120,16 @@ html
         pre
           code.language-javascript.
           &lt;p style=&quot;color: sienna; margin-left:20px&quot;&gt;This is a paragraph&lt;/p&gt;
- 
-     
 
       section(data-bespoke-state='emphatic')
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+        h2 Fakta seseorang mengunakan CSS
         ul
-
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-           li &nbsp;
-           li Tampilan pada browser berbeda-beda
-           li Kadang juga terdapat browser yang tidak support CSS (browser lama)
-           li Harus tahu cara menggunakannya
-           li Dibutuhkan waktu lebih lama dalam membuatnya		
+          li &nbsp;
+          li Tampilan pada browser berbeda-beda
+          li Kadang juga terdapat browser yang tidak support CSS (browser lama)
+          li Harus tahu cara menggunakannya
+          li Dibutuhkan waktu lebih lama dalam membuatnya		
  
-
-
       section(data-bespoke-state='emphatic')
         h2 Syntax Highlighting
         h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
@@ -149,7 +142,7 @@ html
               hash: true,
               state: true,
               bullets: 'li, .bullet'
-            });
+            };
 
       section(data-bespoke-state='emphatic')
         h2 Named Route
