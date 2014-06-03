@@ -146,7 +146,55 @@ Daily Scrum
 (Winson Jung):
 1. semalam saya buat contoh css
 2. tidak ada 
-3. tidak ada
+3. gak ada koneksi
+
+==========================================================================
+
+01/06
+libur hari minggu
+
+==========================================================================
+
+02/6
+Daily Scrum
+(Ahmad Fadlik Muhairi):
+1. Semalam saya libur
+2. Hari ini saya edit pagenya
+3. Tidak ada kendala
+
+(Heri Tri Wibowo):
+1. Semalam saya libur
+2. Hari ini saya menambahkan content (syntax css) dan gambar
+3. gak ada kendala
+
+(Winson Jung):
+1. semalam saya buat contoh css
+2. hari ini saya mencari bahan tambahan 
+3. gak ada kendala
+
+
+=============================================================================
+
+03/6
+Daily Scrum
+(Ahmad Fadlik Muhairi):
+1. Semalam saya edit page
+2. Hari ini saya edit logbook
+3. Tidak ada kendala
+
+(Heri Tri Wibowo):
+1. Semalam semalam menambah content
+2. hari ini saya menambah dan mengedit content (deklarasi css)
+3. gak ada kendala
+
+(Winson Jung):
+1. semalam saya saya mencari bahan tambahan 
+2. hari ini saya menambah konten dan edit konten
+3. gak ada kendala
+
+
+
+
 
 
 
