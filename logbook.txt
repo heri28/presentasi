@@ -192,9 +192,14 @@ Daily Scrum
 2. hari ini saya menambah konten dan edit konten
 3. gak ada kendala
 
+=============================================================================
 
-
-
+04/6
+Daily Scrum
+(Winson Jung):
+1. saya hari ini edit logbook dan menambahkan kelehamannya css
+2. besok saya akan mengedit template css
+3. tidak ada kendala
 
 
 
