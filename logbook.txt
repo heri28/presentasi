@@ -196,13 +196,30 @@ Daily Scrum
 
 04/6
 Daily Scrum
+(Ahmad Fadlik Muhairi):
+1. hari ini saya edit konten
+2. besok edit template 
+3. Tidak ada kendala
+
+(Heri Tri Wibowo):
+1. semalam menambah dan mengedit content
+2. hari ini saya mengedit template slide, dan mengedit penulisan content
+3. tidak ada kendala
+
 (Winson Jung):
 1. saya hari ini edit logbook dan menambahkan kelehamannya css
 2. besok saya akan mengedit template css
-3. tidak ada kendala
+3. jam 5 keatas tidak ada koneksi
 
+=============================================================================
+	
+05/6
+Daily Scrum
 
-
+(Winson Jung):
+1. saya hari ini edit logbook dan edit html
+2. besok saya akan membuat sifat css
+3. jam 5 keatas tidak ada koneksi
 
 
 
