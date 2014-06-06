@@ -5,7 +5,7 @@
 slide_width = 640px
 slide_height = 480px
 slide_background = -webkit-linear-gradient(#3a84ca 0%, #5f9ad2 50%, #90b5da 75%, #a8c6e3 100%)
-
+slide_background = -moz-linear-gradient(#3a84ca 0%, #5f9ad2 50%, #90b5da 75%, #a8c6e3 100%)
 slide_transition_length = .6s
 slide_transition_easing = ease
 slide_transition_rotate_y = 90deg
@@ -238,6 +238,7 @@ br
 	display: block;
 	z-index: 9999;
 	-webkit-animation: flyUp 80s linear infinite;
+	-moz-animation: flyUp 80s linear infinite;
 	
 @-webkit-keyframes flyUp
 	0% { margin-top: 320px;}
@@ -258,6 +259,8 @@ br
 	z-index: 99999;
 	-webkit-animation: fly 25s infinite linear;
 	-webkit-transform: scale(0.27740000000000004);
+	-moz-animation: fly 25s infinite linear;
+	-moz-transform: scale(0.27740000000000004);
 	
 @-webkit-keyframes fly
 	0% {left: -404px;}
