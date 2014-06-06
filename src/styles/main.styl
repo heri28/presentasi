@@ -4,7 +4,7 @@
 
 slide_width = 640px
 slide_height = 480px
-slide_background = #08a9f3
+slide_background = -webkit-linear-gradient(#3a84ca 0%, #5f9ad2 50%, #90b5da 75%, #a8c6e3 100%)
 
 slide_transition_length = .6s
 slide_transition_easing = ease
@@ -161,6 +161,7 @@ body
   font-family: helvetica, arial, sans-serif
   font-size: 18px
   color: #f1f1f0
+  overflow: hidden
 
 h1
   font-size: 72px
@@ -235,8 +236,143 @@ br
 	height: 162px;
 	display: block;
 	z-index: 9999;
-	-webkit-animation: flyUp 50s linear infinite;
+	-webkit-animation: flyUp 80s linear infinite;
 	
 @-webkit-keyframes flyUp
 	0% { margin-top: 320px;}
 	100%{margin-top: -550px;}
+	
+@-moz-keyframes flyUp
+	0% { margin-top: 320px;}
+	100%{margin-top: -550px;}
+	
+.plane
+	background: url(../images/plane.png) no-repeat 0 0;
+	height: 119px;
+	position: fixed;
+	top: 6%;
+	overflow: visible;
+	width: 704px;
+	display: block;
+	z-index: 99999;
+	-webkit-animation: fly 25s infinite linear;
+	-webkit-transform: scale(0.27740000000000004);
+	
+@-webkit-keyframes fly
+	0% {left: -404px;}
+	99.9999% {left: 100%;}
+	100% {left: -404px;}
+	
+@-moz-keyframes fly
+	0% {left: -404px;}
+	99.9999% {left: 100%;}
+	100% {left: -404px;}
+
+.awan
+	width: 200px;
+	height: 60px;
+	background:#ffffff;
+	border-radius: 200px;
+	position: relative;
+	z-index: 9999;
+
+
+.awan:before,
+.awan:after
+	content: ' ';
+	position: absolute;
+	background: #ffffff;
+	width: 150px;
+	height: 80px;
+	position: absolute;
+	top: -25px;
+	left: 10px;
+	border-radius:100px;
+	text-transform: rotate(30deg); 
+	
+
+.awan:after
+	width: 120px;
+	height: 120px;
+	top: -55px;
+	left: auto;
+	right: 15px;
+	
+.no1
+	top: 80px;
+	opacity: 0.8;
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-animation: jalankanawan 30s linear infinite;
+	-moz-animation: jalankanawan 30s linear infinite;
+	-ms-animation: jalankanawan 30s linear infinite;
+	-o-animation: jalankanawan 30s linear infinite;
+	animation: jalankanawan 30s linear infinite;
+
+
+.no2
+	top: 100px
+	left: 200px;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-o-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6;
+	-webkit-animation: jalankanawan 45s linear infinite;
+	-moz-animation: jalankanawan 45s linear infinite;
+	-ms-animation: jalankanawan 45s linear infinite;
+	-o-animation: jalankanawan 45s linear infinite;
+	animation: jalankanawan 45s linear infinite;
+
+
+.no3
+	left: -250px;
+	top: 150px;
+	opacity: 0.8;
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	-o-transform: scale(0.75);
+	-ms-transform: scale(0.75);
+	transform: scale(0.75);
+	-webkit-animation: jalankanawan 50s linear infinite;
+	-moz-animation: jalankanawan 50s linear infinite;
+	-ms-animation: jalankanawan 50s linear infinite;
+	-o-animation: jalankanawan 50s linear infinite;
+	animation: jalankanawan 50s linear infinite;
+
+.no4
+	left: 470px;
+	top: -250;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.75;
+	-webkit-animation: jalankanawan 28s linear infinite;
+	-moz-animation: jalankanawan 28s linear infinite;
+	-ms-animation: jalankanawan 28s linear infinite;
+	-o-animation: jalankanawan 28s linear infinite;
+	animation: jalankanawan 28s linear infinite;
+
+.no5
+	left: -150px;
+	top: 190px;
+	opacity: 0.8;
+	-webkit-animation: jalankanawan 38s linear infinite;
+	-moz-animation: jalankanawan 38s linear infinite;
+	-ms-animation: jalankanawan 38s linear infinite;
+	-o-animation: jalankanawan 38s linear infinite;
+	animation: jalankanawan 38s linear infinite;
+	
+@-webkit-keyframes jalankanawan
+	0% { margin-left: 1280px;}
+	100%{margin-left: -1280px;}
+
+@-moz-keyframes jalankanawan
+	0% { margin-left: 1280px;}
+	100%{margin-left: -1280px;}
