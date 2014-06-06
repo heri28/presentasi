@@ -198,7 +198,7 @@ Daily Scrum
 Daily Scrum
 (Ahmad Fadlik Muhairi):
 1. hari ini saya edit konten
-2. besok edit template 
+2. hari ini saya tambahkan fungsi css
 3. Tidak ada kendala
 
 (Heri Tri Wibowo):
@@ -215,6 +215,15 @@ Daily Scrum
 	
 05/6
 Daily Scrum
+(Ahmad Fadlik Muhairi):
+1. semalam saya tambahkan fungsi css
+2. hari ini saya edit font dan color-nya
+3. tidak ada kendala
+
+(Heri Tri Wibowo):
+1. semalam saya edit template
+2. hari ini saya edit template dan edit penulisan content
+3. tidak ada kendala
 
 (Winson Jung):
 1. saya hari ini edit logbook dan edit html
