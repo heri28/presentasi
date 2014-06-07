@@ -265,6 +265,6 @@ Daily Scrum
 
 (Winson Jung):
 1. semalam saya edit template
-2. hari ini saya edit template 
+2. hari ini edit log book dan buat burndown chart
 3. tidak ada kendala
 
