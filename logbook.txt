@@ -207,8 +207,8 @@ Daily Scrum
 3. tidak ada kendala
 
 (Winson Jung):
-1. saya hari ini edit logbook dan menambahkan kelehamannya css
-2. besok saya akan mengedit template css
+1. membuat fakta dan edit kelebihan css
+2. hari ini saya edit content
 3. jam 5 keatas tidak ada koneksi
 
 =============================================================================
@@ -226,8 +226,8 @@ Daily Scrum
 3. tidak ada kendala
 
 (Winson Jung):
-1. saya hari ini edit logbook dan edit html
-2. besok saya akan membuat sifat css
+1. semalam saya menambahkan kelemahan css
+2. saya hari ini edit logbook dan edit html
 3. jam 5 keatas tidak ada koneksi
 
 =============================================================================
@@ -235,18 +235,36 @@ Daily Scrum
 06/6
 Daily Scrum
 (Ahmad Fadlik Muhairi):
-1. -
-2. -
-3. -
+1. semalam saya tambahkan fungsi css
+2. hari ini saya edit font dan color-nya
+3. tidak ada kendala
 
 (Heri Tri Wibowo):
-1. semalam saya edit template
-2. hari ini saya edit template dan perbaikan konten
+1. semalam edit template dan edit content
+2. hari ini saya edit template (tambah animasi)
 3. tidak ada kendala
 
 (Winson Jung):
-1. saya hari ini edit logbook dan edit template
-2. besok saya akan edit template 
+1. semalam saya edit log book dan menambahkan sifat css
+2. saya hari ini edit logbook dan edit template
 3. jam 5 keatas tidak ada koneksi
 
+=============================================================================
+	
+07/6
+Daily Scrum
+(Ahmad Fadlik Muhairi):
+1. hari ini delete file yang double
+2. -
+3. tidak ada kendala
+
+(Heri Tri Wibowo):
+1. hari ini edit template dan edit content
+2. -
+3. tidak ada kendala
+
+(Winson Jung):
+1. semalam saya edit template
+2. hari ini edit log book dan buat burndown chart
+3. tidak ada kendala
 
