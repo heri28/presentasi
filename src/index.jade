@@ -13,9 +13,8 @@ html
 
   body
 
-    div.container
-      div.navbar-header
-        a(href='#') Anonymous Team
+    div#navtop
+       p Anonymous Present
 
     div.ballon
     div.plane
@@ -24,6 +23,7 @@ html
     div.awan.no3
     div.awan.no4
     div.awan.no5
+    div.awan.no6
 
     article
 
@@ -202,7 +202,10 @@ html
        p <p class="b">Special occasions call for special gifts. The Jenware line of housewares and clothing can be personalized for the ones you love... the happy couple celebrating their new life together... the recent graduate... or a new baby.</p>
 
       section(data-bespoke-state='emphatic')
-        h2 Thank You 
+        h2 Thank You
+
+    div#msg
+       p Use the &larr; &rarr; keys to navigate. Works awesomely on <a href="http://www.google.com/chrome">Chrome</a> and <a href="http://www.mozilla.org">Firefox</a>
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')

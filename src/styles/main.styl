@@ -38,7 +38,7 @@ article
   &.bespoke-parent
     display: block
     position: absolute
-    top: 50px
+    top: 0
     bottom: 0
     left: 0
     right: 0
@@ -251,11 +251,11 @@ br
 	background: url(../images/plane.png) no-repeat 0 0;
 	height: 119px;
 	position: fixed;
-	top: 6%;
+	top: 1px;
 	overflow: visible;
 	width: 704px;
 	display: block;
-	z-index: 99999;
+	z-index: 9998;
 	-webkit-animation: fly 25s infinite linear;
 	-webkit-transform: scale(0.27740000000000004);
 	-moz-animation: fly 25s infinite linear;
@@ -302,18 +302,18 @@ br
 	right: 15px;
 	
 .no1
-	top: 80px;
-	opacity: 0.8;
+	top: 75px;
+	opacity: 0.65;
 	-webkit-transform: scale(0.5);
 	-moz-transform: scale(0.5);
 	-o-transform: scale(0.5);
 	-ms-transform: scale(0.5);
 	transform: scale(0.5);
-	-webkit-animation: jalankanawan 30s linear infinite;
-	-moz-animation: jalankanawan 30s linear infinite;
-	-ms-animation: jalankanawan 30s linear infinite;
-	-o-animation: jalankanawan 30s linear infinite;
-	animation: jalankanawan 30s linear infinite;
+	-webkit-animation: jalankanawan 40s linear infinite;
+	-moz-animation: jalankanawan 40s linear infinite;
+	-ms-animation: jalankanawan 40s linear infinite;
+	-o-animation: jalankanawan 40s linear infinite;
+	animation: jalankanawan 40s linear infinite;
 
 
 .no2
@@ -324,28 +324,28 @@ br
 	-o-transform: scale(0.6);
 	-ms-transform: scale(0.6);
 	transform: scale(0.6);
-	opacity: 0.6;
-	-webkit-animation: jalankanawan 45s linear infinite;
-	-moz-animation: jalankanawan 45s linear infinite;
-	-ms-animation: jalankanawan 45s linear infinite;
-	-o-animation: jalankanawan 45s linear infinite;
-	animation: jalankanawan 45s linear infinite;
+	opacity: 0.65;
+	-webkit-animation: jalankanawan 55s linear infinite;
+	-moz-animation: jalankanawan 55s linear infinite;
+	-ms-animation: jalankanawan 55s linear infinite;
+	-o-animation: jalankanawan 55s linear infinite;
+	animation: jalankanawan 55s linear infinite;
 
 
 .no3
-	left: -250px;
+	left: -200px;
 	top: 150px;
-	opacity: 0.8;
+	opacity: 0.65;
 	-webkit-transform: scale(0.75);
 	-moz-transform: scale(0.75);
 	-o-transform: scale(0.75);
 	-ms-transform: scale(0.75);
 	transform: scale(0.75);
-	-webkit-animation: jalankanawan 50s linear infinite;
-	-moz-animation: jalankanawan 50s linear infinite;
-	-ms-animation: jalankanawan 50s linear infinite;
-	-o-animation: jalankanawan 50s linear infinite;
-	animation: jalankanawan 50s linear infinite;
+	-webkit-animation: jalankanawan 60s linear infinite;
+	-moz-animation: jalankanawan 60s linear infinite;
+	-ms-animation: jalankanawan 60s linear infinite;
+	-o-animation: jalankanawan 60s linear infinite;
+	animation: jalankanawan 60s linear infinite;
 
 .no4
 	left: 470px;
@@ -355,22 +355,37 @@ br
 	-o-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
-	opacity: 0.75;
-	-webkit-animation: jalankanawan 28s linear infinite;
-	-moz-animation: jalankanawan 28s linear infinite;
-	-ms-animation: jalankanawan 28s linear infinite;
-	-o-animation: jalankanawan 28s linear infinite;
-	animation: jalankanawan 28s linear infinite;
-
-.no5
-	left: -150px;
-	top: 190px;
-	opacity: 0.8;
+	opacity: 0.65;
 	-webkit-animation: jalankanawan 38s linear infinite;
 	-moz-animation: jalankanawan 38s linear infinite;
 	-ms-animation: jalankanawan 38s linear infinite;
 	-o-animation: jalankanawan 38s linear infinite;
 	animation: jalankanawan 38s linear infinite;
+
+.no5
+	left: -150px;
+	top: 190px;
+	opacity: 0.65;
+	-webkit-animation: jalankanawan 47s linear infinite;
+	-moz-animation: jalankanawan 47s linear infinite;
+	-ms-animation: jalankanawan 47s linear infinite;
+	-o-animation: jalankanawan 47s linear infinite;
+	animation: jalankanawan 47s linear infinite;
+	
+.no6
+	left: -170px;
+	top: 240px;
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-o-transform: scale(0.6);
+	-ms-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.65;
+	-webkit-animation: jalankanawan 70s linear infinite;
+	-moz-animation: jalankanawan 70s linear infinite;
+	-ms-animation: jalankanawan 70s linear infinite;
+	-o-animation: jalankanawan 70s linear infinite;
+	animation: jalankanawan 70s linear infinite;
 	
 @-webkit-keyframes jalankanawan
 	0% { margin-left: 1280px;}
@@ -384,3 +399,58 @@ html
 	background: -webkit-linear-gradient(#3a84ca 0%, #5f9ad2 50%, #90b5da 75%, #a8c6e3 100%)
 	background: -moz-linear-gradient(#3a84ca 0%, #5f9ad2 50%, #90b5da 75%, #a8c6e3 100%)
 	height: 100%
+	
+#msg
+	background-color: #F6F9FB
+	position: fixed
+	bottom: 0
+
+#msg p
+	font-size: 11.5px;
+	margin: 3px;
+	color: black;
+	
+#msg p a
+	color: #16a085;
+	
+#navtop
+	position: fixed;
+	margin-top: -10px;
+	left: 50%;
+	width: 200px;
+	padding: 8px;
+	margin-left: -105px;
+	border-radius: 50px;
+	background: #ffffff;
+	z-index: 9997;
+	-webkit-animation-name: bounce;
+	-moz-animation-name: bounce;
+	-webkit-animation-duration: .8s;
+	-moz-animation-duration: .8s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay: 0;
+	-moz-animation-delay: 0;
+	-webkit-animation-timing-function: ease;
+	-moz-animation-timing-function: ease;
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-webkit-animation-fill-mode: none;
+	-moz-animation-fill-mode: none;
+	
+#navtop p
+	color: #3D86CB;
+	margin: 0;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+	
+@-moz-keyframes bounce 
+	from {top: -15px;}
+	to {top: 0px;}
+	
+@-webkit-keyframes bounce 
+	from {top: -15px;}
+	to {top: 0px;}
+	
